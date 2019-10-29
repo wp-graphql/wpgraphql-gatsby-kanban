@@ -4,7 +4,7 @@ import { setContext } from 'apollo-link-context';
 import { InMemoryCache } from 'apollo-cache-inmemory';
 
 const httpLink = createHttpLink({
-    uri: 'https://wpkanban.local/graphql',
+    uri: `${process.env.WPGRAPHQL_URI}`,
 });
 
 const authLink = setContext((_, { headers }) => {
