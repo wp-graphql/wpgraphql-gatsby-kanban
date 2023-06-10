@@ -9,7 +9,7 @@
     "apollo-client": "^2.6.4",
     "apollo-link-context": "^1.0.19",
     "apollo-link-http": "^1.5.16",
-    "gatsby": "^2.17.4",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-antd": "^2.0.2",
     "graphql": "^14.5.8",
     "graphql-tag": "^2.10.1",
